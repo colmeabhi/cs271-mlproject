@@ -1,0 +1,198 @@
+{
+  "yelloweye": {
+    "class_id": 0,
+    "scientific_name": "Sebastes ruberrimus",
+    "common_name": "Yelloweye Rockfish",
+    "category": "prohibited",
+    "regulation": "Prohibited - Zero Take (Overfished)"
+  },
+  "quillback": {
+    "class_id": 1,
+    "scientific_name": "Sebastes maliger",
+    "common_name": "Quillback Rockfish",
+    "category": "prohibited",
+    "regulation": "Prohibited - Zero Take (Overfished since 2023)"
+  },
+  "bronzespotted": {
+    "class_id": 2,
+    "scientific_name": "Sebastes gilli",
+    "common_name": "Bronzespotted Rockfish",
+    "category": "prohibited",
+    "regulation": "Prohibited - Zero Take"
+  },
+  "cowcod": {
+    "class_id": 3,
+    "scientific_name": "Sebastes levis",
+    "common_name": "Cowcod",
+    "category": "prohibited",
+    "regulation": "Prohibited - Zero Take (Critically Depleted)"
+  },
+  "white_shark": {
+    "class_id": 4,
+    "scientific_name": "Carcharodon carcharias",
+    "common_name": "White Shark",
+    "category": "prohibited",
+    "regulation": "See current regulations"
+  },
+  "giant_sea_bass": {
+    "class_id": 5,
+    "scientific_name": "Stereolepis gigas",
+    "common_name": "Giant Sea Bass",
+    "category": "prohibited",
+    "regulation": "See current regulations"
+  },
+  "garibaldi": {
+    "class_id": 6,
+    "scientific_name": "Hypsypops rubicundus",
+    "common_name": "Garibaldi",
+    "category": "prohibited",
+    "regulation": "See current regulations"
+  },
+  "green_sturgeon": {
+    "class_id": 7,
+    "scientific_name": "Acipenser medirostris",
+    "common_name": "Green Sturgeon",
+    "category": "prohibited",
+    "regulation": "See current regulations"
+  },
+  "gulf_grouper": {
+    "class_id": 8,
+    "scientific_name": "Mycteroperca jordani",
+    "common_name": "Gulf Grouper",
+    "category": "prohibited",
+    "regulation": "See current regulations"
+  },
+  "broomtail_grouper": {
+    "class_id": 9,
+    "scientific_name": "Mycteroperca xenarcha",
+    "common_name": "Broomtail Grouper",
+    "category": "prohibited",
+    "regulation": "See current regulations"
+  },
+  "coho_salmon": {
+    "class_id": 10,
+    "scientific_name": "Oncorhynchus kisutch",
+    "common_name": "Coho Salmon",
+    "category": "prohibited",
+    "regulation": "See current regulations"
+  },
+  "steelhead_ocean": {
+    "class_id": 11,
+    "scientific_name": "Oncorhynchus mykiss irideus",
+    "common_name": "Steelhead (Ocean)",
+    "category": "prohibited",
+    "regulation": "See current regulations"
+  },
+  "vermilion": {
+    "class_id": 12,
+    "scientific_name": "Sebastes miniatus",
+    "common_name": "Vermilion Rockfish",
+    "category": "restricted",
+    "regulation": "Sub-bag Limit: 2-4 fish (varies by GMA)"
+  },
+  "copper": {
+    "class_id": 13,
+    "scientific_name": "Sebastes caurinus",
+    "common_name": "Copper Rockfish",
+    "category": "restricted",
+    "regulation": "Sub-bag Limit: 1 fish"
+  },
+  "canary": {
+    "class_id": 14,
+    "scientific_name": "Sebastes pinniger",
+    "common_name": "Canary Rockfish",
+    "category": "restricted",
+    "regulation": "Restricted - Check current regulations"
+  },
+  "california_halibut": {
+    "class_id": 15,
+    "scientific_name": "Paralichthys californicus",
+    "common_name": "California Halibut",
+    "category": "restricted",
+    "regulation": "See current regulations"
+  },
+  "pacific_halibut": {
+    "class_id": 16,
+    "scientific_name": "Hippoglossus stenolepis",
+    "common_name": "Pacific Halibut",
+    "category": "restricted",
+    "regulation": "See current regulations"
+  },
+  "white_seabass": {
+    "class_id": 17,
+    "scientific_name": "Atractoscion nobilis",
+    "common_name": "White Seabass",
+    "category": "restricted",
+    "regulation": "See current regulations"
+  },
+  "california_sheephead": {
+    "class_id": 18,
+    "scientific_name": "Semicossyphus pulcher",
+    "common_name": "California Sheephead",
+    "category": "restricted",
+    "regulation": "See current regulations"
+  },
+  "barred_sand_bass": {
+    "class_id": 19,
+    "scientific_name": "Paralabrax nebulifer",
+    "common_name": "Barred Sand Bass",
+    "category": "restricted",
+    "regulation": "See current regulations"
+  },
+  "kelp_bass": {
+    "class_id": 20,
+    "scientific_name": "Paralabrax clathratus",
+    "common_name": "Kelp Bass",
+    "category": "restricted",
+    "regulation": "See current regulations"
+  },
+  "spotted_sand_bass": {
+    "class_id": 21,
+    "scientific_name": "Paralabrax maculatofasciatus",
+    "common_name": "Spotted Sand Bass",
+    "category": "restricted",
+    "regulation": "See current regulations"
+  },
+  "leopard_shark": {
+    "class_id": 22,
+    "scientific_name": "Triakis semifasciata",
+    "common_name": "Leopard Shark",
+    "category": "restricted",
+    "regulation": "See current regulations"
+  },
+  "chinook_salmon": {
+    "class_id": 23,
+    "scientific_name": "Oncorhynchus tshawytscha",
+    "common_name": "Chinook Salmon",
+    "category": "restricted",
+    "regulation": "See current regulations"
+  },
+  "black": {
+    "class_id": 24,
+    "scientific_name": "Sebastes melanops",
+    "common_name": "Black Rockfish",
+    "category": "legal",
+    "regulation": "Legal - Within 10 fish rockfish limit"
+  },
+  "blue": {
+    "class_id": 25,
+    "scientific_name": "Sebastes mystinus",
+    "common_name": "Blue Rockfish",
+    "category": "legal",
+    "regulation": "Legal - Within 10 fish rockfish limit"
+  },
+  "olive": {
+    "class_id": 26,
+    "scientific_name": "Sebastes serranoides",
+    "common_name": "Olive Rockfish",
+    "category": "legal",
+    "regulation": "Legal - Within 10 fish rockfish limit"
+  },
+  "gopher": {
+    "class_id": 27,
+    "scientific_name": "Sebastes carnatus",
+    "common_name": "Gopher Rockfish",
+    "category": "legal",
+    "regulation": "Legal - Within 10 fish rockfish limit"
+  }
+}

@@ -1,0 +1,157 @@
+project:
+  name: "California Recreational Fishing Dataset"
+  version: "2.0.0"
+
+species:
+  prohibited:
+    # Rockfish - Zero Take
+    - scientific: "Sebastes ruberrimus"
+      common: "Yelloweye Rockfish"
+      code: "yelloweye"
+      target_images: 500
+    - scientific: "Sebastes maliger"
+      common: "Quillback Rockfish"
+      code: "quillback"
+      target_images: 400
+    - scientific: "Sebastes gilli"
+      common: "Bronzespotted Rockfish"
+      code: "bronzespotted"
+      target_images: 200
+    - scientific: "Sebastes levis"
+      common: "Cowcod"
+      code: "cowcod"
+      target_images: 300
+    
+    # Other Protected Species - Zero Take
+    - scientific: "Carcharodon carcharias"
+      common: "White Shark"
+      code: "white_shark"
+      target_images: 200
+    - scientific: "Stereolepis gigas"
+      common: "Giant Sea Bass"
+      code: "giant_sea_bass"
+      target_images: 200
+    - scientific: "Hypsypops rubicundus"
+      common: "Garibaldi"
+      code: "garibaldi"
+      target_images: 200
+    - scientific: "Acipenser medirostris"
+      common: "Green Sturgeon"
+      code: "green_sturgeon"
+      target_images: 200
+    - scientific: "Mycteroperca jordani"
+      common: "Gulf Grouper"
+      code: "gulf_grouper"
+      target_images: 200
+    - scientific: "Mycteroperca xenarcha"
+      common: "Broomtail Grouper"
+      code: "broomtail_grouper"
+      target_images: 200
+    - scientific: "Oncorhynchus kisutch"
+      common: "Coho Salmon"
+      code: "coho_salmon"
+      target_images: 200
+    - scientific: "Oncorhynchus mykiss irideus"
+      common: "Steelhead (Ocean)"
+      code: "steelhead_ocean"
+      target_images: 200
+
+  restricted:
+    # Rockfish - Sub-bag Limits
+    - scientific: "Sebastes miniatus"
+      common: "Vermilion Rockfish"
+      code: "vermilion"
+      target_images: 400
+    - scientific: "Sebastes caurinus"
+      common: "Copper Rockfish"
+      code: "copper"
+      target_images: 600
+    - scientific: "Sebastes pinniger"
+      common: "Canary Rockfish"
+      code: "canary"
+      target_images: 400
+    
+    # Heavily Regulated Species
+    - scientific: "Paralichthys californicus"
+      common: "California Halibut"
+      code: "california_halibut"
+      target_images: 200
+    - scientific: "Hippoglossus stenolepis"
+      common: "Pacific Halibut"
+      code: "pacific_halibut"
+      target_images: 200
+    - scientific: "Atractoscion nobilis"
+      common: "White Seabass"
+      code: "white_seabass"
+      target_images: 200
+    - scientific: "Semicossyphus pulcher"
+      common: "California Sheephead"
+      code: "california_sheephead"
+      target_images: 200
+    - scientific: "Paralabrax nebulifer"
+      common: "Barred Sand Bass"
+      code: "barred_sand_bass"
+      target_images: 200
+    - scientific: "Paralabrax clathratus"
+      common: "Kelp Bass"
+      code: "kelp_bass"
+      target_images: 200
+    - scientific: "Paralabrax maculatofasciatus"
+      common: "Spotted Sand Bass"
+      code: "spotted_sand_bass"
+      target_images: 200
+    - scientific: "Triakis semifasciata"
+      common: "Leopard Shark"
+      code: "leopard_shark"
+      target_images: 200
+    - scientific: "Oncorhynchus tshawytscha"
+      common: "Chinook Salmon"
+      code: "chinook_salmon"
+      target_images: 200
+
+  legal:
+    - scientific: "Sebastes melanops"
+      common: "Black Rockfish"
+      code: "black"
+      target_images: 800
+    - scientific: "Sebastes mystinus"
+      common: "Blue Rockfish"
+      code: "blue"
+      target_images: 700
+    - scientific: "Sebastes serranoides"
+      common: "Olive Rockfish"
+      code: "olive"
+      target_images: 500
+    - scientific: "Sebastes carnatus"
+      common: "Gopher Rockfish"
+      code: "gopher"
+      target_images: 500
+
+data_sources:
+  inaturalist:
+    place_id: 14  # California
+    quality_grade: "research"
+    per_page: 200
+    max_pages: 3
+
+  gbif:
+    country: "US"
+    state: "California"
+    coordinate_uncertainty: 1000
+
+  fishbase:
+    base_url: "https://www.fishbase.se"
+    timeout: 10
+
+preprocessing:
+  min_image_size: 224
+  target_size: 512
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+augmentation:
+  enabled: true
+  rotation_range: 20
+  brightness_range: [0.8, 1.2]
+  horizontal_flip: true
