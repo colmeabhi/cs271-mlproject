@@ -4,8 +4,8 @@
   "restricted_species": 12,
   "legal_species": 4,
   "splits": {
-    "train": 3205,
-    "val": 699,
-    "test": 704
+    "train": 3403,
+    "val": 745,
+    "test": 757
   }
 }

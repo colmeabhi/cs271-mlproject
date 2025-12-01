@@ -50,8 +50,8 @@ class DatasetSplitter:
             logger.warning(f"Directory not found: {source_dir}")
             return
 
-        # Get all images
-        images = list(source_dir.glob('*.jpg'))
+        # Get all images (both jpg and png)
+        images = list(source_dir.glob('*.jpg')) + list(source_dir.glob('*.png'))
         if not images:
             logger.warning(f"No images found for {species_code}")
             return
@@ -150,7 +150,7 @@ class DatasetSplitter:
                             continue
 
                         code = species_dir.name
-                        count = len(list(species_dir.glob('*.jpg')))
+                        count = len(list(species_dir.glob('*.jpg'))) + len(list(species_dir.glob('*.png')))
                         distribution[split][code] = count
 
         with open(metadata_dir / 'class_distribution.json', 'w') as f:

@@ -150,7 +150,7 @@ def main():
     # Hyperparameters
     BATCH_SIZE = 32
     LEARNING_RATE = 0.001
-    NUM_EPOCHS = 25
+    NUM_EPOCHS = 75
 
     # Device
     device = torch.device('cuda' if torch.cuda.is_available() else
