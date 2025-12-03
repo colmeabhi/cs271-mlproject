@@ -18,7 +18,7 @@ DATA_DIR = Path('data/processed')
 MODEL_DIR = Path('models')
 BATCH_SIZE = 32
 LEARNING_RATE = 0.001
-NUM_EPOCHS = 75  # More epochs since no augmentation
+NUM_EPOCHS = 25  # More epochs since no augmentation
 
 # ============================================================
 # Model Architecture
